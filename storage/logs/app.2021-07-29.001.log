@@ -1,0 +1,142 @@
+2021/07/28 00:34:08.952 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 00:34:37.719 [E] [InfoController.go:300]  计算文件哈希值失败 err: open storage/uploads/userinfo//f4118dc2cdffc8f4ee62f8167a810ac6.jpg: The system cannot find the file specified.
+2021/07/28 00:34:37.719 [E] [value.go:476]  UploadFile err: open storage/uploads/userinfo//f4118dc2cdffc8f4ee62f8167a810ac6.jpg: The system cannot find the file specified.
+2021/07/28 00:34:37.720 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     3.0107ms|   match|[43m PUT     [0m /api/v1/user/file/16912bb55dd8408589d61a5cfc154152   r:/api/v1/user/file/:user_id
+2021/07/28 00:35:26.953 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 00:35:27.223 [E] [InfoController.go:300]  计算文件哈希值失败 err: open storage/uploads/userinfo//f4118dc2cdffc8f4ee62f8167a810ac6.jpg: The system cannot find the file specified.
+2021/07/28 00:35:27.223 [E] [value.go:476]  UploadFile err: open storage/uploads/userinfo//f4118dc2cdffc8f4ee62f8167a810ac6.jpg: The system cannot find the file specified.
+2021/07/28 00:35:27.223 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     2.9999ms|   match|[43m PUT     [0m /api/v1/user/file/16912bb55dd8408589d61a5cfc154152   r:/api/v1/user/file/:user_id
+2021/07/28 00:36:01.531 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 00:36:44.871 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 00:36:44.954 [E] [InfoController.go:300]  计算文件哈希值失败 err: open storage/uploads/userinfo//f4118dc2cdffc8f4ee62f8167a810ac6.jpg: The system cannot find the file specified.
+2021/07/28 00:36:44.955 [E] [value.go:476]  UploadFile err: open storage/uploads/userinfo//f4118dc2cdffc8f4ee62f8167a810ac6.jpg: The system cannot find the file specified.
+2021/07/28 00:36:44.955 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     3.0032ms|   match|[43m PUT     [0m /api/v1/user/file/16912bb55dd8408589d61a5cfc154152   r:/api/v1/user/file/:user_id
+2021/07/28 00:39:41.541 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 00:39:47.047 [E] [InfoController.go:300]  计算文件哈希值失败 err: open storage/uploads/userinfo/f4118dc2cdffc8f4ee62f8167a810ac6.jpg: The system cannot find the file specified.
+2021/07/28 00:39:47.047 [E] [value.go:476]  UploadFile err: open storage/uploads/userinfo/f4118dc2cdffc8f4ee62f8167a810ac6.jpg: The system cannot find the file specified.
+2021/07/28 00:39:47.047 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     4.0764ms|   match|[43m PUT     [0m /api/v1/user/file/16912bb55dd8408589d61a5cfc154152   r:/api/v1/user/file/:user_id
+2021/07/28 00:45:31.095 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 00:45:44.764 [E] [value.go:476]  UploadFile err: rename storage/uploads/userinfo/86acf5e8e27d3f6d15644b5ae2c6a90f.jpg storage/uploads/userinfo/17fd75259a1453f574967c7b9dd299ea.jpg: The process cannot access the file because it is being used by another process.
+2021/07/28 00:45:44.765 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     2.9029ms|   match|[43m PUT     [0m /api/v1/user/file/16912bb55dd8408589d61a5cfc154152   r:/api/v1/user/file/:user_id
+2021/07/28 00:46:11.954 [E] [value.go:476]  UploadFile err: rename storage/uploads/userinfo/86acf5e8e27d3f6d15644b5ae2c6a90f.jpg storage/uploads/userinfo/17fd75259a1453f574967c7b9dd299ea.jpg: The process cannot access the file because it is being used by another process.
+2021/07/28 00:46:11.954 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.1965ms|   match|[43m PUT     [0m /api/v1/user/file/16912bb55dd8408589d61a5cfc154152   r:/api/v1/user/file/:user_id
+2021/07/28 00:46:43.969 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 00:47:00.008 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|      602.1µs| nomatch|[46m POST    [0m /api/v1/user/adduserinfo
+2021/07/28 00:47:14.219 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|    74.4615ms|   match|[46m POST    [0m /api/v1/login   r:/api/v1/login
+2021/07/28 00:47:28.803 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|    14.4845ms|   match|[46m POST    [0m /api/v1/user/adduserinfo   r:/api/v1/user/adduserinfo
+2021/07/28 00:47:37.173 [E] [value.go:476]  UploadFile err: rename storage/uploads/userinfo/86acf5e8e27d3f6d15644b5ae2c6a90f.jpg storage/uploads/userinfo/17fd75259a1453f574967c7b9dd299ea.jpg: The process cannot access the file because it is being used by another process.
+2021/07/28 00:47:37.174 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.8851ms|   match|[43m PUT     [0m /api/v1/user/file/16912bb55dd8408589d61a5cfc154152   r:/api/v1/user/file/:user_id
+2021/07/28 00:52:00.499 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 00:52:03.043 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     2.6828ms|   match|[43m PUT     [0m /api/v1/user/file/16912bb55dd8408589d61a5cfc154152   r:/api/v1/user/file/:user_id
+2021/07/28 00:52:18.847 [E] [value.go:476]  UploadFile err: remove storage/uploads/userinfo/86acf5e8e27d3f6d15644b5ae2c6a90f.jpg: The system cannot find the file specified.
+2021/07/28 00:52:18.847 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|    10.2392ms|   match|[43m PUT     [0m /api/v1/user/file/16912bb55dd8408589d61a5cfc154152   r:/api/v1/user/file/:user_id
+2021/07/28 00:53:11.283 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 00:53:19.902 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|    12.7241ms|   match|[43m PUT     [0m /api/v1/user/file/16912bb55dd8408589d61a5cfc154152   r:/api/v1/user/file/:user_id
+2021/07/28 00:53:37.868 [C] [panic.go:965]  the request url is  /api/v1/user/file/09282dc152eb402c885aea3a613146a9
+2021/07/28 00:53:37.868 [C] [panic.go:965]  Handler crashed with error reflect.Value.Addr of unaddressable value
+2021/07/28 00:53:37.868 [C] [panic.go:965]  E:/SDK/Go/src/runtime/panic.go:965
+2021/07/28 00:53:37.868 [C] [panic.go:965]  E:/workspaces/GOPATH/pkg/mod/github.com/jinzhu/gorm@v1.9.16/scope.go:865
+2021/07/28 00:53:37.868 [C] [panic.go:965]  E:/SDK/Go/src/runtime/panic.go:965
+2021/07/28 00:53:37.868 [C] [panic.go:965]  E:/SDK/Go/src/reflect/value.go:271
+2021/07/28 00:53:37.868 [C] [panic.go:965]  E:/workspaces/GOPATH/pkg/mod/github.com/jinzhu/gorm@v1.9.16/callback_query.go:84
+2021/07/28 00:53:37.868 [C] [panic.go:965]  E:/workspaces/GOPATH/pkg/mod/github.com/jinzhu/gorm@v1.9.16/scope.go:869
+2021/07/28 00:53:37.868 [C] [panic.go:965]  E:/workspaces/GOPATH/pkg/mod/github.com/jinzhu/gorm@v1.9.16/main.go:334
+2021/07/28 00:53:37.868 [C] [panic.go:965]  E:/workspaces/GOPATH/src/PerInfoChain/controllers/InfoController.go:289
+2021/07/28 00:53:37.868 [C] [panic.go:965]  E:/SDK/Go/src/reflect/value.go:476
+2021/07/28 00:53:37.868 [C] [panic.go:965]  E:/SDK/Go/src/reflect/value.go:337
+2021/07/28 00:53:37.868 [C] [panic.go:965]  E:/workspaces/GOPATH/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2021/07/28 00:53:37.868 [C] [panic.go:965]  E:/SDK/Go/src/net/http/server.go:2887
+2021/07/28 00:53:37.868 [C] [panic.go:965]  E:/SDK/Go/src/net/http/server.go:1952
+2021/07/28 00:53:37.868 [C] [panic.go:965]  E:/SDK/Go/src/runtime/asm_amd64.s:1371
+2021/07/28 00:53:37.869 [server.go:3137]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 00:54:21.939 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 00:54:24.196 [E] [value.go:476]  UploadFile err: 创建文件保存目录失败 
+2021/07/28 00:54:24.197 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|      5.422ms|   match|[43m PUT     [0m /api/v1/user/file/09282dc152eb402c885aea3a613146a9   r:/api/v1/user/file/:user_id
+2021/07/28 00:56:07.825 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 00:56:09.690 [E] [value.go:476]  UploadFile err: 创建文件保存目录失败 
+2021/07/28 00:56:09.691 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     3.1418ms|   match|[43m PUT     [0m /api/v1/user/file/09282dc152eb402c885aea3a613146a9   r:/api/v1/user/file/:user_id
+2021/07/28 00:56:53.871 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 00:56:55.084 [C] [panic.go:965]  the request url is  /api/v1/user/file/09282dc152eb402c885aea3a613146a9
+2021/07/28 00:56:55.084 [C] [panic.go:965]  Handler crashed with error reflect.Value.Addr of unaddressable value
+2021/07/28 00:56:55.084 [C] [panic.go:965]  E:/SDK/Go/src/runtime/panic.go:965
+2021/07/28 00:56:55.084 [C] [panic.go:965]  E:/workspaces/GOPATH/pkg/mod/github.com/jinzhu/gorm@v1.9.16/scope.go:865
+2021/07/28 00:56:55.084 [C] [panic.go:965]  E:/SDK/Go/src/runtime/panic.go:965
+2021/07/28 00:56:55.084 [C] [panic.go:965]  E:/SDK/Go/src/reflect/value.go:271
+2021/07/28 00:56:55.085 [C] [panic.go:965]  E:/workspaces/GOPATH/pkg/mod/github.com/jinzhu/gorm@v1.9.16/callback_query.go:84
+2021/07/28 00:56:55.085 [C] [panic.go:965]  E:/workspaces/GOPATH/pkg/mod/github.com/jinzhu/gorm@v1.9.16/scope.go:869
+2021/07/28 00:56:55.085 [C] [panic.go:965]  E:/workspaces/GOPATH/pkg/mod/github.com/jinzhu/gorm@v1.9.16/main.go:334
+2021/07/28 00:56:55.085 [C] [panic.go:965]  E:/workspaces/GOPATH/src/PerInfoChain/controllers/InfoController.go:289
+2021/07/28 00:56:55.085 [C] [panic.go:965]  E:/SDK/Go/src/reflect/value.go:476
+2021/07/28 00:56:55.085 [C] [panic.go:965]  E:/SDK/Go/src/reflect/value.go:337
+2021/07/28 00:56:55.085 [C] [panic.go:965]  E:/workspaces/GOPATH/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2021/07/28 00:56:55.085 [C] [panic.go:965]  E:/SDK/Go/src/net/http/server.go:2887
+2021/07/28 00:56:55.086 [C] [panic.go:965]  E:/SDK/Go/src/net/http/server.go:1952
+2021/07/28 00:56:55.086 [C] [panic.go:965]  E:/SDK/Go/src/runtime/asm_amd64.s:1371
+2021/07/28 00:56:55.087 [server.go:3137]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 00:57:23.045 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 00:57:24.730 [E] [value.go:476]  UploadFile err: remove storage/uploads/userinfo/86acf5e8e27d3f6d15644b5ae2c6a90f.jpg: The system cannot find the file specified.
+2021/07/28 00:57:24.730 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     2.9938ms|   match|[43m PUT     [0m /api/v1/user/file/09282dc152eb402c885aea3a613146a9   r:/api/v1/user/file/:user_id
+2021/07/28 00:57:49.083 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 00:57:50.167 [E] [value.go:476]  UploadFile err: remove storage/uploads/userinfo/86acf5e8e27d3f6d15644b5ae2c6a90f.jpg: The system cannot find the file specified.
+2021/07/28 00:57:50.167 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|          4ms|   match|[43m PUT     [0m /api/v1/user/file/09282dc152eb402c885aea3a613146a9   r:/api/v1/user/file/:user_id
+2021/07/28 00:58:40.845 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|      9.572ms|   match|[43m PUT     [0m /api/v1/user/file/09282dc152eb402c885aea3a613146a9   r:/api/v1/user/file/:user_id
+2021/07/28 01:25:34.344 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 18:07:00.277 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 18:07:22.405 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 20:36:26.193 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 20:36:35.607 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|    55.1617ms|   match|[46m POST    [0m /api/v1/register   r:/api/v1/register
+2021/07/28 20:36:46.598 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|    55.7826ms|   match|[46m POST    [0m /api/v1/login   r:/api/v1/login
+2021/07/28 20:37:40.249 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     54.613ms|   match|[46m POST    [0m /api/v1/login   r:/api/v1/login
+2021/07/28 20:38:53.794 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|    55.6504ms|   match|[46m POST    [0m /api/v1/login   r:/api/v1/login
+2021/07/28 20:40:13.922 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|    57.0405ms|   match|[46m POST    [0m /api/v1/login   r:/api/v1/login
+2021/07/28 20:45:15.822 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.0585ms| nomatch|[46m POST    [0m /api/v1/user/adduserinfo
+2021/07/28 20:46:43.037 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|    56.3099ms|   match|[46m POST    [0m /api/v1/login   r:/api/v1/login
+2021/07/28 20:48:24.416 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 20:52:00.818 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     4.4833ms|   match|[46m POST    [0m /api/v1/user/adduserinfo   r:/api/v1/user/adduserinfo
+2021/07/28 20:55:20.804 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|      7.184ms|   match|[46m POST    [0m /api/v1/user/adduserinfo   r:/api/v1/user/adduserinfo
+2021/07/28 20:59:27.359 [E] [value.go:476]  UploadFile err: 不支持该文件
+2021/07/28 20:59:27.359 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|          1ms|   match|[46m POST    [0m /api/v1/user/adduserinfo   r:/api/v1/user/adduserinfo
+2021/07/28 21:03:55.271 [E] [value.go:476]  UploadFile err: 不支持该文件
+2021/07/28 21:03:55.271 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.2298ms|   match|[46m POST    [0m /api/v1/user/adduserinfo   r:/api/v1/user/adduserinfo
+2021/07/28 21:07:04.852 [E] [value.go:476]  app.BindAndValid err: 身份证长度必须为 18
+2021/07/28 21:07:04.852 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     3.6907ms|   match|[46m POST    [0m /api/v1/user/adduserinfo   r:/api/v1/user/adduserinfo
+2021/07/28 21:08:17.516 [E] [value.go:476]  app.BindAndValid err: 身份证长度必须为 18,手机无效的手机号码
+2021/07/28 21:08:17.516 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     3.5706ms|   match|[46m POST    [0m /api/v1/user/adduserinfo   r:/api/v1/user/adduserinfo
+2021/07/28 21:08:29.032 [E] [value.go:476]  app.BindAndValid err: 身份证长度必须为 18,民族不能为空,手机无效的手机号码
+2021/07/28 21:08:29.032 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     3.8763ms|   match|[46m POST    [0m /api/v1/user/adduserinfo   r:/api/v1/user/adduserinfo
+2021/07/28 21:11:33.184 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     3.5083ms|   match|[46m POST    [0m /api/v1/user/adduserinfo   r:/api/v1/user/adduserinfo
+2021/07/28 21:17:16.655 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|      933.2µs| nomatch|[44m GET     [0m /api/v1/user/list
+2021/07/28 21:18:06.970 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     2.3884ms|   match|[44m GET     [0m /api/v1/user/list   r:/api/v1/user/list
+2021/07/28 21:18:37.894 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.9349ms|   match|[44m GET     [0m /api/v1/user/list   r:/api/v1/user/list
+2021/07/28 21:36:57.042 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|      714.4µs| nomatch|[44m GET     [0m /api/admin/user/50010720011009121X
+2021/07/28 21:37:06.700 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.4854ms|   match|[44m GET     [0m /api/v1/user/50010720011009121X   r:/api/v1/user/:id_card
+2021/07/28 21:37:34.473 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.1008ms|   match|[44m GET     [0m /api/v1/user/50010720011009121   r:/api/v1/user/:id_card
+2021/07/28 21:37:42.084 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|      560.3µs|   match|[44m GET     [0m /api/v1/user/500107200110091213   r:/api/v1/user/:id_card
+2021/07/28 21:43:24.618 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|      340.3µs| nomatch|[43m PUT     [0m /api/admin/user/4b83270af4fd488785e54d54f24fd13b
+2021/07/28 21:43:31.835 [C] [panic.go:965]  the request url is  /api/v1/user/4b83270af4fd488785e54d54f24fd13b
+2021/07/28 21:43:31.835 [C] [panic.go:965]  Handler crashed with error reflect.Value.Addr of unaddressable value
+2021/07/28 21:43:31.835 [C] [panic.go:965]  E:/SDK/Go/src/runtime/panic.go:965
+2021/07/28 21:43:31.835 [C] [panic.go:965]  E:/workspaces/GOPATH/pkg/mod/github.com/jinzhu/gorm@v1.9.16/scope.go:865
+2021/07/28 21:43:31.835 [C] [panic.go:965]  E:/SDK/Go/src/runtime/panic.go:965
+2021/07/28 21:43:31.835 [C] [panic.go:965]  E:/SDK/Go/src/reflect/value.go:271
+2021/07/28 21:43:31.835 [C] [panic.go:965]  E:/workspaces/GOPATH/pkg/mod/github.com/jinzhu/gorm@v1.9.16/callback_query.go:84
+2021/07/28 21:43:31.835 [C] [panic.go:965]  E:/workspaces/GOPATH/pkg/mod/github.com/jinzhu/gorm@v1.9.16/scope.go:869
+2021/07/28 21:43:31.835 [C] [panic.go:965]  E:/workspaces/GOPATH/pkg/mod/github.com/jinzhu/gorm@v1.9.16/main.go:334
+2021/07/28 21:43:31.835 [C] [panic.go:965]  E:/workspaces/GOPATH/src/PerInfoChain/controllers/InfoController.go:206
+2021/07/28 21:43:31.835 [C] [panic.go:965]  E:/SDK/Go/src/reflect/value.go:476
+2021/07/28 21:43:31.835 [C] [panic.go:965]  E:/SDK/Go/src/reflect/value.go:337
+2021/07/28 21:43:31.835 [C] [panic.go:965]  E:/workspaces/GOPATH/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2021/07/28 21:43:31.835 [C] [panic.go:965]  E:/SDK/Go/src/net/http/server.go:2887
+2021/07/28 21:43:31.835 [C] [panic.go:965]  E:/SDK/Go/src/net/http/server.go:1952
+2021/07/28 21:43:31.835 [C] [panic.go:965]  E:/SDK/Go/src/runtime/asm_amd64.s:1371
+2021/07/28 21:43:31.836 [server.go:3137]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/07/28 21:44:08.269 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/28 21:44:09.859 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     3.9997ms|   match|[43m PUT     [0m /api/v1/user/4b83270af4fd488785e54d54f24fd13b   r:/api/v1/user/:user_id
+2021/07/28 21:45:32.861 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.7079ms|   match|[43m PUT     [0m /api/v1/user/4b83270af4fd488785e54d54f24fd13b   r:/api/v1/user/:user_id
+2021/07/28 21:53:43.527 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     4.7383ms|   match|[43m PUT     [0m /api/v1/user/4b83270af4fd488785e54d54f24fd13b   r:/api/v1/user/:user_id
+2021/07/28 21:59:23.199 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|         40µs| nomatch|[41m DELETE  [0m /api/admin/user/4b83270af4fd488785e54d54f24fd13b
+2021/07/28 21:59:33.755 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|      118.8µs| nomatch|[41m DELETE  [0m /api/v1/user/4b83270af4fd488785e54d54f24fd13b
+2021/07/28 22:00:17.715 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     2.8768ms|   match|[41m DELETE  [0m /api/v1/user/4b83270af4fd488785e54d54f24fd13b   r:/api/v1/user/:user_id
+2021/07/28 22:00:47.637 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.2448ms|   match|[41m DELETE  [0m /api/v1/user/4b83270af4fd488785e54d54f24fd13b   r:/api/v1/user/:user_id
+2021/07/28 22:01:01.573 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.0828ms|   match|[41m DELETE  [0m /api/v1/user/4b83270af4fd488785e54d54f24fd13b   r:/api/v1/user/:user_id
+2021/07/28 22:01:05.877 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.1503ms|   match|[41m DELETE  [0m /api/v1/user/4b83270af4fd488785e54d54f24fd13   r:/api/v1/user/:user_id

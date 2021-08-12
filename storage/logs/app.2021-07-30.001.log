@@ -1,0 +1,52 @@
+2021/07/29 08:00:17.697 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/29 08:00:23.385 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.2132ms|   match|[46m POST    [0m /api/v1/login   r:/api/v1/login
+2021/07/29 08:01:34.075 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|    81.2906ms|   match|[46m POST    [0m /api/v1/register   r:/api/v1/register
+2021/07/29 08:01:47.091 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|    130.272ms|   match|[46m POST    [0m /api/v1/login   r:/api/v1/login
+2021/07/29 08:05:20.119 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/29 08:05:25.755 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|    82.4936ms|   match|[46m POST    [0m /api/v1/login   r:/api/v1/login
+2021/07/29 08:05:42.097 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|   193.0191ms|   match|[46m POST    [0m /api/v1/login   r:/api/v1/login
+2021/07/29 08:06:13.390 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     3.7671ms|   match|[43m PUT     [0m /api/v1/user/file/09282dc152eb402c885aea3a613146a9   r:/api/v1/user/file/:user_id
+2021/07/29 08:06:31.436 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     3.0657ms|   match|[43m PUT     [0m /api/v1/user/file/4b83270af4fd488785e54d54f24fd13b   r:/api/v1/user/file/:user_id
+2021/07/29 08:07:08.667 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     5.7309ms|   match|[43m PUT     [0m /api/v1/user/file/4b83270af4fd488785e54d54f24fd13b   r:/api/v1/user/file/:user_id
+2021/07/29 08:20:36.996 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/29 08:20:38.572 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     4.0099ms|   match|[43m PUT     [0m /api/v1/user/file/4b83270af4fd488785e54d54f24fd13b   r:/api/v1/user/file/:user_id
+2021/07/29 08:21:33.499 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|    11.4707ms| nomatch|[46m POST    [0m /api/v1/user/adduserinfo
+2021/07/29 08:21:41.029 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|    79.9163ms|   match|[46m POST    [0m /api/v1/login   r:/api/v1/login
+2021/07/29 08:22:07.227 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     3.9627ms|   match|[46m POST    [0m /api/v1/user/adduserinfo   r:/api/v1/user/adduserinfo
+2021/07/29 08:22:31.863 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     18.679ms|   match|[46m POST    [0m /api/v1/user/adduserinfo   r:/api/v1/user/adduserinfo
+2021/07/29 08:22:48.839 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     2.8515ms|   match|[43m PUT     [0m /api/v1/user/file/560a3d7b26604d07a226d595fa62fc17   r:/api/v1/user/file/:user_id
+2021/07/29 08:23:06.548 [E] [value.go:476]  UploadFile err: 不支持该文件
+2021/07/29 08:23:06.548 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     5.7237ms|   match|[43m PUT     [0m /api/v1/user/file/4b95f436b85d45bf8ce57e5061e04d0e   r:/api/v1/user/file/:user_id
+2021/07/29 08:24:49.613 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     17.374ms|   match|[43m PUT     [0m /api/v1/user/file/4b95f436b85d45bf8ce57e5061e04d0e   r:/api/v1/user/file/:user_id
+2021/07/29 08:26:48.150 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|      441.2µs| nomatch|[44m GET     [0m /api/v1/user/file/4b95f436b85d45bf8ce57e5061e04d0e
+2021/07/29 08:28:05.253 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|      429.3µs| nomatch|[44m GET     [0m /api/v1/user/file/4b95f436b85d45bf8ce57e5061e04d0e
+2021/07/29 08:28:33.141 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.8393ms|   match|[44m GET     [0m /api/v1/user/file/4b95f436b85d45bf8ce57e5061e04d0e   r:/api/v1/user/file/:user_id
+2021/07/29 08:41:35.661 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/29 08:46:55.201 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|      557.2µs| nomatch|[46m POST    [0m /api/v1/addeducationinfo
+2021/07/29 08:47:09.005 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.1391ms| nomatch|[46m POST    [0m /api/v1/education/addeducationinfo
+2021/07/29 08:48:05.560 [E] [value.go:476]  app.BindAndValid err: 起始年份必须是有效的数字,终止年份必须是有效的数字
+2021/07/29 08:48:05.560 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     2.3949ms|   match|[46m POST    [0m /api/v1/education/addeducationinfo   r:/api/v1/education/addeducationinfo
+2021/07/29 08:48:27.660 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/29 08:48:29.448 [E] [value.go:476]  UploadFile err: 不支持该文件
+2021/07/29 08:48:29.448 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.9989ms|   match|[46m POST    [0m /api/v1/education/addeducationinfo   r:/api/v1/education/addeducationinfo
+2021/07/29 08:49:28.221 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.2437ms|   match|[46m POST    [0m /api/v1/education/addeducationinfo   r:/api/v1/education/addeducationinfo
+2021/07/29 08:50:22.893 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/29 08:50:38.150 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     3.2559ms|   match|[46m POST    [0m /api/v1/education/addeducationinfo   r:/api/v1/education/addeducationinfo
+2021/07/29 08:57:05.213 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.7243ms|   match|[46m POST    [0m /api/v1/education/addeducationinfo   r:/api/v1/education/addeducationinfo
+2021/07/29 08:57:11.822 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/07/29 08:57:12.756 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.0005ms|   match|[46m POST    [0m /api/v1/education/addeducationinfo   r:/api/v1/education/addeducationinfo
+2021/07/29 08:57:45.988 [E] [value.go:476]  UploadFile err: 不支持该文件
+2021/07/29 08:57:45.988 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|      2.116ms|   match|[46m POST    [0m /api/v1/education/addeducationinfo   r:/api/v1/education/addeducationinfo
+2021/07/29 08:58:32.891 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     9.2746ms|   match|[46m POST    [0m /api/v1/education/addeducationinfo   r:/api/v1/education/addeducationinfo
+2021/07/29 08:59:19.006 [E] [value.go:476]  app.BindAndValid err: 起始年份不能为空
+2021/07/29 08:59:19.006 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|    10.3222ms|   match|[46m POST    [0m /api/v1/education/addeducationinfo   r:/api/v1/education/addeducationinfo
+2021/07/29 08:59:28.208 [E] [value.go:476]  app.BindAndValid err: 学校名称不能为空,起始年份不能为空
+2021/07/29 08:59:28.208 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     9.2534ms|   match|[46m POST    [0m /api/v1/education/addeducationinfo   r:/api/v1/education/addeducationinfo
+2021/07/29 09:01:05.564 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|      253.6µs| nomatch|[44m GET     [0m /api/v1/education/list
+2021/07/29 09:01:35.199 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     2.2108ms|   match|[44m GET     [0m /api/v1/education/list   r:/api/v1/education/list
+2021/07/29 09:03:54.426 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|      796.1µs| nomatch|[41m DELETE  [0m /api/v1/education/
+2021/07/29 09:05:50.895 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     1.9798ms|   match|[41m DELETE  [0m /api/v1/education/50010720011009121X   r:/api/v1/education/:education_id
+2021/07/29 09:07:14.448 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|     2.0381ms|   match|[44m GET     [0m /api/v1/education/50010720011009121X   r:/api/v1/education/:id_card
+2021/07/29 09:12:46.873 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|      632.1µs| nomatch|[43m PUT     [0m /api/admin/education/258e581f3a434b9ca66f2205fc4d63dd
+2021/07/29 09:12:58.524 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|           0s| nomatch|[43m PUT     [0m /api/v1/education/258e581f3a434b9ca66f2205fc4d63dd
+2021/07/29 09:13:25.070 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|    15.7936ms|   match|[43m PUT     [0m /api/v1/education/258e581f3a434b9ca66f2205fc4d63dd   r:/api/v1/education/:education_id
